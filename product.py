@@ -15,7 +15,6 @@ sqlite_file_name = "database.db"
 sqlite_url = f"sqlite:///{sqlite_file_name}"
 engine = create_engine(sqlite_url, echo=True)
 
-
 #API works starts here
 @router.post("/")
 def createProduct(product:model.Product):
@@ -27,3 +26,4 @@ def createProduct(product:model.Product):
         session.close()
 
     return {"message": "Product added successfully."}
+    

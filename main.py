@@ -11,3 +11,4 @@ app.include_router(order.router)
 @app.get("/")
 def welcome_page():
     return {"message": "Welcome to bepragma:)"}
+    
