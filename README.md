@@ -64,6 +64,40 @@ After products are created you can test crud on **Order** at **/orders**
 
 alternatively it can be accessed from swagger UI itself.
 
+In the request body of API call you can pass below body
+
+```
+{
+  "order": {
+    "amount": 900
+  },
+  "customer": {
+    "id": 2,(Note: pass only when customer exists otherwise remove id field it automatically will create new customer)
+    "name": "Aman",
+    "phone": "9779844024092",
+    "address": "Janakpur"
+  },
+  "productList": {
+    "data": [
+      {
+        "product_id": 1,
+        "quantity": 2
+      },
+      {
+        "product_id": 3,
+        "quantity": 4
+      },
+      {
+        "product_id": 2,
+        "quantity": 5
+      }
+    ]
+  }
+}
+
+
+```
+
 **Happy Coding**
 
 Please write to me at **dipakshah401@gmail.com** for any queries 😊.
