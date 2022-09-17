@@ -98,6 +98,21 @@ In the request body of API call you can pass below body
 
 ```
 
+
+
+# Product Recommender API
+
+Have implemented a basic product recommender API to recommend products on following basis:
+same category
+sorting products based on maximum sales
+
+And returning products list based on above basis on passing any product_id
+
+
+It can be accessed at **/recommender** path of root app
+
+Alternatively it can be accessed at Swagger UI
+
 **Happy Coding**
 
 Please write to me at **dipakshah401@gmail.com** for any queries 😊.
