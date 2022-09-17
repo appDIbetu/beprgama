@@ -21,6 +21,7 @@ The file structure is like
    * -model.py -- a script containing models and database initialization
    * -order.py -- a script to do CRUD operations for order
    * -product.py -- a script to create product
+   * -product_recommendation.py -- a script to recommend products based on similar category and maximum sales in the category
   ```
 
 Open **model.py** file and **Run** it- This will create databases and required tables in it.
