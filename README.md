@@ -4,7 +4,7 @@ A challenge of bepragma(formerly Logisy)
 # Prequisities
 1. Make sure [python 3.6+](https://www.python.org/downloads/) is installed on your system
 2. Have installed [DB Browser for SQLite](https://sqlitebrowser.org/)
-3. Any text editor like VSCode
+3. Any text editor like [VSCode](https://code.visualstudio.com/download)
 
 ## Getting Started
 
