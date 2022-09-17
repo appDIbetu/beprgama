@@ -17,7 +17,7 @@ engine = create_engine(sqlite_url, echo=True)
 
 #API to get products recomendation by product_id as path parameter
 @router.get("/{product_id}")
-def read_order_by_id(product_id:int):
+def recommend_products_by_product_id(product_id:int):
     with Session(engine) as session:
         statement = select(model.Product).where(model.Product.id == product_id)
         result = session.exec(statement)
