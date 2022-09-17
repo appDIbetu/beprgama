@@ -16,9 +16,10 @@ class OrderItem(SQLModel, table=True):
 
 #product model
 class Product(SQLModel, table=True):
-    id: Optional[int] = Field(default=None, primary_key=True, unique=True,)
+    id: Optional[int] = Field(default=None, primary_key=True, unique=True)
     name: str
     price: float
+    category: str
     order_items: List["OrderItem"] = Relationship()
 
 #order model with cascading on to remove all order_items of particular order when order is deleted
