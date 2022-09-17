@@ -82,7 +82,6 @@ def read_order_by_id(order_id:int):
     return response
 
 
-
 #API to fetch all orders and its corresponding details
 @router.get("/")
 def read_all_orders():
