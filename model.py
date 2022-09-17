@@ -1,7 +1,6 @@
-from itertools import product
 from typing import Optional, List
 
-from sqlmodel import Field, Relationship, Session, SQLModel, create_engine
+from sqlmodel import Field, Relationship, SQLModel, create_engine
 
 from pydantic import BaseModel
 
